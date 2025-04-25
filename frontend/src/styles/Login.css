@@ -1,0 +1,104 @@
+ /* Centering and Background */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Login Box */
+.login-box {
+  padding: 40px;
+  max-width: 380px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Title */
+.login-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e3c72;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.login-form input:focus {
+  border-color: #1e88e5;
+  outline: none;
+}
+
+/* Login Button */
+.login-button {
+  background: #1e88e5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.login-button:hover {
+  background: #1565c0;
+}
+
+/* Forgot Password */
+.forgot-password {
+  align-self: flex-start;
+  font-size: 14px;
+  color: #1e88e5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.forgot-password:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+/* Sign-up Text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.signup-text a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.signup-text a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}

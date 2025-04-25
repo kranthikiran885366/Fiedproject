@@ -1,0 +1,40 @@
+.sidebar-container {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+  }
+  
+  .menu-button {
+    color: #fff;
+    background: #007bff;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background: #0056b3;
+  }
+  
+  .sidebar {
+    width: 280px;
+    height: 100vh;
+    background: #1e1e2f;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .sidebar .MuiListItem-root {
+    transition: background 0.3s ease;
+  }
+  
+  .sidebar .MuiListItem-root:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .sidebar .icon {
+    color: white;
+    margin-right: 15px;
+  }
+  

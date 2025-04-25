@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="60px" viewBox="0 0 200 60" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M30,10 L50,20 L30,30 L10,20 L30,10 Z M30,35 L50,25 L50,45 L30,55 L10,45 L10,25 L30,35 Z" fill="#1976D2"/>
+        <text font-family="Arial-BoldMT" font-size="20" font-weight="bold" fill="#1976D2">
+            <tspan x="70" y="35">UNIVERSITY</tspan>
+        </text>
+    </g>
+</svg>
